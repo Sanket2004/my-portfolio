@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="theme-color" content="#2d3748">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="I'm an android developer as well as web developer experienced in building full-stack responsive applications. Full-Stack Developer-in-Training on a mission to transform ideas into stunning solutions 💪🌐">
+  <meta property="og:title" content="Sanket Banerjee - FullStack Developer" />
+  <meta property="og:description"
+    content="I'm an android developer as well as web developer experienced in building full-stack responsive applications. Full-Stack Developer-in-Training on a mission to transform ideas into stunning solutions 💪🌐" />
+  <meta property="og:image" content="https://github.com/Sanket2004/my-portfolio/assets/99745967/5c1d40ac-0ee1-4d62-985a-ba70efc5c596" />
+  <meta property="og:image:alt"
+    content="Hello there, I am Sanket Banerjee a computer science student based in Asansol." />
+  <meta name="keywords" content="Portfolio">
+  <meta name="author" content="Sanket Banerjee">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Sanket Banerjee</title>
+</head>
+
+<body>
+
+  <div id="backToTopBtn">
+    <ion-icon name="chevron-up-outline"></ion-icon>
+  </div>
+
+  <!-- Navigation -->
+  <div class="navigation">
+    <input type="checkbox" class="navigation__checkbox" id="nav-toggle" />
+    <label for="nav-toggle" class="navigation__button">
+      <span class="navigation__icon">&nbsp;</span>
+    </label>
+    <div class="navigation__background"></div>
+    <nav class="navigation__nav">
+      <ul class="navigation__list">
+        <li class="navigation__item">
+          <a href="#" class="navigation__link" id="navigation__link__logo">Sanket Banerjee</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#about" class="navigation__link"><span>1.</span>About Me</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#education" class="navigation__link"><span>2.</span>Education</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#projects" class="navigation__link"><span>3.</span>Projects</a>
+        </li>
+
+        <!-- <li class="navigation__item">
+          <a href="#" class="navigation__link"><span>4.</span>Testimonials</a>
+        </li> -->
+        <li class="navigation__item">
+          <a href="#contact" class="navigation__link"><span>4.</span>Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="preloader__content">
+      <h1 class="preloader__hide">
+        <span class="preloader__text">I Craft</span>
+      </h1>
+      <h1 class="preloader__hide">
+        <span class="preloader__text">Websites That</span>
+      </h1>
+      <h1 class="preloader__hide">
+        <span class="preloader__text">You'd Love Using!</span>
+      </h1>
+    </div>
+  </div>
+  <div class="preloader__slider">
+    <h4>Welcome to</h4>
+    <h1>Sanket Banerjee's</h1>
+    <h4>portfolio</h4>
+  </div>
+  <!-- Hero -->
+  <main class="hero">
+    <div class="hero__content">
+      <p class="hero__content__greeting">Hello there, I'm</p>
+      <h1 class="hero__content__name">Sanket Banerjee</h1>
+      <h2 class="hero__content__headline"><span class="auto-type"></span></h2>
+      <p class="hero__content__about">
+        I'm an android developer as well as web developer experienced in building full-stack
+        responsive applications. Full-Stack Developer-in-Training on a mission to transform ideas into stunning
+        solutions 💪🌐
+      </p>
+      <a href="#contact"><button class="hero__content__button">Contact me</button></a>
+      <a href="./assets/Sanket Banerjee_resume.pdf"><button class="hero__content__button--outlined">
+          Download Resume
+        </button></a>
+    </div>
+    <div class="hero__socials">
+      <div class="hero__socials__content">
+        <a href="mailto:sanketbanerjee.2004@gmail.com">sanketbanerjee.2004@gmail.com</a>
+      </div>
+    </div>
+  </main>
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="about__content container">
+      <div class="about__content__icons">
+        <div class="about__content__icons__icon">
+          <!-- <i class="devicon-html5-plain"></i> -->
+          <ion-icon name="logo-html5"></ion-icon>
+          <p>HTML</p>
+        </div>
+        <div class="about__content__icons__icon">
+          <!-- <i class="devicon-css3-plain"></i> -->
+          <ion-icon name="logo-css3"></ion-icon>
+          <p>CSS</p>
+        </div>
+        <div class="about__content__icons__icon">
+          <!-- <i class="devicon-javascript-plain"></i> -->
+          <ion-icon name="logo-javascript"></ion-icon>
+          <p>JavaScript</p>
+        </div>
+        <!-- <div class="about__content__icons__icon">
+          <i class="devicon-typescript-plain"></i>
+          <p>TypeScript</p>
+        </div> -->
+        <div class="about__content__icons__icon">
+          <!-- <i class="devicon-react-original"></i> -->
+          <ion-icon name="logo-react"></ion-icon>
+          <p>React</p>
+        </div>
+        <div class="about__content__icons__icon">
+          <!-- <i class="devicon-nodejs-plain"></i> -->
+          <ion-icon name="logo-nodejs"></ion-icon>
+          <p>NodeJS</p>
+        </div>
+        <div class="about__content__icons__icon">
+          <!-- <i class="devicon-mongodb-plain"></i> -->
+          <ion-icon name="logo-firebase"></ion-icon>
+          <p>Firebase</p>
+        </div>
+        <div class="about__content__icons__icon">
+          <!-- <i class="devicon-postgresql-plain"></i> -->
+          <ion-icon name="logo-python"></ion-icon>
+          <p>Python</p>
+        </div>
+        <div class="about__content__icons__icon">
+          <!-- <i class="devicon-express-original"></i> -->
+          <ion-icon name="logo-figma"></ion-icon>
+          <p>Figma</p>
+        </div>
+        <div class="about__content__icons__icon">
+          <!-- <i class="devicon-vuejs-plain"></i> -->
+          <ion-icon name="logo-android"></ion-icon>
+          <p>Android</p>
+        </div>
+        <div class="about__content__icons__icon">
+          <!-- <i class="devicon-redux-original"></i> -->
+          <ion-icon name="logo-github"></ion-icon>
+          <p>Github</p>
+        </div>
+        <div class="about__content__icons__icon">
+          <!-- <i class="devicon-sass-original"></i> -->
+          <ion-icon name="logo-npm"></ion-icon>
+          <p>npm</p>
+        </div>
+        <div class="about__content__icons__icon">
+          <!-- <i class="devicon-materialui-plain"></i> -->
+          <ion-icon name="logo-vue"></ion-icon>
+          <p>Vue</p>
+        </div>
+        <!-- <div class="about__content__icons__icon">
+          <i class="devicon-bootstrap-plain"></i>
+          <p>Bootstrap</p>
+        </div>
+        <div class="about__content__icons__icon">
+          <i class="devicon-python-plain"></i>
+          <p>Python</p>
+        </div>
+        <div class="about__content__icons__icon">
+          <i class="devicon-java-plain"></i>
+          <p>Java</p>
+        </div> -->
+      </div>
+      <div class="about__content__text">
+        <h2 class="about__content__text__heading">About Me</h2>
+        <p class="about__content__text__paragraph">
+          I'm a computer science engineering student and an aspiring software
+          developer based in Asansol, India, who's fascinated with android & web
+          technologies. Here's what I can help you with:
+        </p>
+        <p class="about__content__text__skill">
+          💻 Building
+          <span class="accent-bg">highly interactive front end</span>
+          and user interfaces as
+          <span class="bold">single page applications</span>
+        </p>
+        <p class="about__content__text__skill">
+          🗄️ Developing
+          <span class="accent-bg">scalable android applications</span>
+          with <span class="bold">backend services</span>
+        </p>
+        <p class="about__content__text__skill">
+          🎨 Design
+          <span class="accent-bg">eye-catching interfaces</span>
+          to achieve top notch <span class="bold">user experience</span>
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- Education Section -->
+  <section class="education" id="education">
+    <div class="education__container container">
+      <div class="row example-centered">
+        <div class="col-md-12 example-title">
+          <h2 class="eduaction__heading">Education</h2>
+          <p class="education__paragraph">A short details about my education 📚</p>
+        </div>
+        <div class="eduaction__timeline">
+          <ul class="timeline timeline-centered">
+            <li class="timeline-item">
+              <div class="timeline-info">
+                <span>July 2021 - July 2025</span>
+              </div>
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <a href="https://www.aecwb.edu.in/" class="school__name">
+                  <h3 class="timeline-title">Asansol Engineering College</h3>
+                </a>
+                <p class="timeline__content">Bachelor of Technology in Information technology</p>
+              </div>
+            </li>
+            <li class="timeline-item">
+              <div class="timeline-info">
+                <span>April 2019 - April 2021</span>
+              </div>
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <a href="https://school.banglarshiksha.gov.in/ws/website/index/19142100508" class="school__name">
+                  <h3 class="timeline-title">Purulia Zilla School</h3>
+                </a>
+                <p class="timeline__content">Higher Secondary in Science</p>
+              </div>
+            </li>
+            <!-- <li class="timeline-item period">
+              <div class="timeline-info"></div>
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h2 class="timeline-title">April 2016</h2>
+              </div>
+            </li> -->
+            <li class="timeline-item">
+              <div class="timeline-info">
+                <span>April 2013 - April 2019</span>
+              </div>
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <a href="#" class="school__name">
+                  <h3 class="timeline-title">Manbhum Victoria Institution</h3>
+                </a>
+                <p class="timeline__content">Intermediate in basic science</p>
+              </div>
+            </li>
+            <!-- <li class="timeline-item">
+              <div class="timeline-info">
+                <span>April 28, 2016</span>
+              </div>
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h3 class="timeline-title">Event Title</h3>
+                <p class="timeline__content">Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer
+                  eget, posuere ut, mauris.
+                  Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero venenatis
+                  faucibus. ullam dictum felis
+                  eu pede mollis pretium. Pellentesque ut neque. </p>
+              </div>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- projects section -->
+  <section class="projects" id="projects">
+    <div class="projects__container container">
+      <div class="col-md-12 example-title">
+        <h2 class="eduaction__heading">Projects</h2>
+        <p class="education__paragraph">Some of my projects 🚀</p>
+      </div>
+
+      <!-- Slider main container -->
+      <div class="swiper projects__items">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <a href="https://daily-paper.netlify.app/" class="projects__link">
+              <div class="projects__items__container">
+                <img src="./assets/dn.png" alt="dn.png" class="projects__items__img">
+                <h3>Daily News</h3>
+                <p>A web application that provides daily updated news using the GNews API.</p>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="https://sanket2004.github.io/BargainBuys/" class="projects__link">
+              <div class="projects__items__container">
+                <img src="./assets/bargainBuys.png" alt="bargainBuys.png" class="projects__items__img">
+                <h3>Bargain Buys</h3>
+                <p>This web app is built using HTML, CSS, and JavaScript, to display product information.</p>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="https://firebase-login-sysytem.vercel.app/login" class="projects__link">
+              <div class="projects__items__container">
+                <img src="./assets/firebaseLogin.png" alt="firebaseLogin.png" class="projects__items__img">
+                <h3>Login System</h3>
+                <p>A web application that authenticates user using Firebase Auth API.</p>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="https://write-assignment.vercel.app/" class="projects__link">
+              <div class="projects__items__container">
+                <img src="./assets/assignmentWriter.png" alt="assignmentWriter.png" class="projects__items__img">
+                <h3>Assignment Writer</h3>
+                <p>A web based application that provides a interface to write assignments..</p>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="https://www.figma.com/proto/5LywIB49QfB45xkHmImO3Q/Login-%26-Register-Page?type=design&node-id=1-2&t=HZbIMzxcLmNeD62H-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2&mode=design"
+              class="projects__link">
+              <div class="projects__items__container">
+                <img src="./assets/loginRegister.png" alt="loginRegister.png" class="projects__items__img">
+                <h3>Login Page</h3>
+                <p>A figma file which have login and register page.</p>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="https://github.com/Sanket2004/Scaffolding-Inspection.git" class="projects__link">
+              <div class="projects__items__container">
+                <img src="./assets/scaffolding.png" alt="scaffolding.png" class="projects__items__img">
+                <h3>Scaffolding Inspection</h3>
+                <p>A full-stack flutter app which have user authentication as well as crud operation.</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev swiper__navBtn"></div>
+        <div class="swiper-button-next swiper__navBtn"></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- contact section -->
+  <section class="contact" id="contact">
+    <div class="col-md-12 example-title contact__title">
+      <h2 class="eduaction__heading">Contact Me</h2>
+      <p class="education__paragraph">Feel free to contact me 📧</p>
+    </div>
+    <div class="contact__container">
+
+      <div class="contact__card">
+        <div class="contact__card__content">
+          <h2 class="contact__card__heading">Reach Out To Me</h2>
+          <ul class="contact__card__list">
+            <li class="contact__card__list__item">
+              <!-- <span><img src="assets/office.svg" alt="Address icon" /></span> -->
+              <span><ion-icon name="navigate-outline" class="contact__box__icon"></ion-icon></span>
+              <span>Asansol Engineering College<br />Asansol, West Bengal<br />India
+                - 713304</span>
+            </li>
+            <li class="contact__card__list__item">
+              <a href="mailto:sanketbanerjee.2004@gmail.com">
+                <span><ion-icon name="mail-outline" class="contact__box__icon"></ion-icon></span>
+                <span>sanketbanerjee.2004@gmail.com</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <ul class="contact__card__socials">
+          <li>
+            <a href="https://github.com/Sanket2004"><ion-icon name="logo-github"
+                class="contact__box__icon"></ion-icon></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/sanket-banerjee-6a5029231/"><ion-icon name="logo-linkedin"
+                class="contact__box__icon"></ion-icon></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/SanketBanerje15"><ion-icon name="logo-twitter"
+                class="contact__box__icon"></ion-icon></a>
+          </li>
+        </ul>
+      </div>
+      <div class="contact__form">
+        <h2 class="contact__form__heading">Drop a Message</h2>
+        <form action="https://formsubmit.co/sanketbanerjee.2004@gmail.com" method="post"
+          class="contact_form contact__form__container" id="contact-form">
+
+
+
+          <input type="hidden" name="_captcha" value="false">
+
+          <input type="hidden" name="_template" value="table">
+
+          <div class="contact__form__input w50 contact_content">
+            <input name="name" id="name" for="name" type="text" required class="contact_input" />
+            <span>Name</span>
+          </div>
+
+          <div class="contact__form__input w50 contact_content">
+            <input type="email" id="email" name="email" name="email" required class="contact_input" />
+            <span>Email Address</span>
+          </div>
+          <div class="contact__form__input w50 contact_content">
+            <input type="tel" id="tel" name="tel" name="tel" required class="contact_input" />
+            <span>Phone Number</span>
+          </div>
+          <div class="contact__form__input w50 contact_content">
+            <input name="subject" id="subject" name="subject" type="text" required class="contact_input" />
+            <span>Subject</span>
+          </div>
+          <div class="contact__form__input w100 contact_content">
+            <textarea name="message" id="message" required class="contact_input"></textarea>
+            <span>Your Message</span>
+          </div>
+          <div class="contact__form__button w100">
+            <input type="submit" value="Submit" />
+          </div>
+
+          <div id="alert" class="alert_style"></div>
+          <div id="alert_error" class="alert_style"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer section -->
+  <section class="footer" id="footer">
+    <div class="footer__container container">
+      <div class="footer__logo">
+        <h1>Sanket Banerjee</h1>
+        <p>Full-Stack Developer</p>
+      </div>
+
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a href="#about" class="footer__link">About Me</a>
+        </li>
+        <li class="footer__item">
+          <a href="#education" class="footer__link">Education</a>
+        </li>
+        <li class="footer__item">
+          <a href="#projects" class="footer__link">Projects</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"
+    integrity="sha512-1dalHDkG9EtcOmCnoCjiwQ/HEB5SDNqw8d4G2MKoNwjiwMNeBAkudsBCmSlMnXdsH8Bm0mOd3tl/6nL5y0bMaQ=="
+    crossorigin="anonymous"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="./js/typing.js"></script>
+  <script src="./js/main.js"></script>
+  <script src="./js/form.js"></script>
+  <script src="./js/backToTop.js"></script>
+</body>
+
+</html>
