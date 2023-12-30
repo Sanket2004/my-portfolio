@@ -65,7 +65,7 @@ const swiper = new Swiper('.swiper', {
 
 var m = document.createElement('meta');
 m.name = 'theme-color';
-m.content = '#2d3748';
+m.content = '#1c1927';
 document.head.appendChild(m);
  // Add this script to scroll to the top on page refresh
 //  window.onbeforeunload = function () {
